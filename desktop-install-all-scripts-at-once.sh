@@ -44,6 +44,11 @@ sudo flatpak install -y FLATPAK/com.hamrick.VueScan.flatpakref
 
 # Vicyos  Personal packages:
 
+#songrec
+sudo apt-add-repository ppa:marin-m/songrec -y -u
+sudo apt-get update
+sudo apt install songrec -y
+
 sudo apt install rclone -y
 sudo apt install unrar -y
 sudo apt install python3-pip -y
