@@ -22,7 +22,11 @@ sudo apt install -y nvidia-driver-450 nvidia-settings
 #sudo apt install -y nvidia-driver-390 nvidia-settings
 
 ###############
+
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt install flatpak -y
+
 sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
 sudo flatpak install -y FLATPAK/net.codeindustry.MasterPDFEditor.flatpakref
 sudo flatpak install -y FLATPAK/org.clementine_player.Clementine.flatpakref
