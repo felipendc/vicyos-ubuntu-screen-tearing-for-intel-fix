@@ -44,6 +44,7 @@ sudo flatpak install -y FLATPAK/com.hamrick.VueScan.flatpakref
 
 # Vicyos  Personal packages:
 
+sudo apt install rclone -y
 sudo apt install unrar -y
 sudo apt install python3-pip -y
 sudo apt install git-lfs -y
