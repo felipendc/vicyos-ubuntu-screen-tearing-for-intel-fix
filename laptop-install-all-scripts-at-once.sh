@@ -39,6 +39,10 @@ sudo flatpak install -y FLATPAK/com.visualstudio.code.flatpakref
 
 # Vicyos  Personal packages:
 
+
+# JAVA 8 JDK 
+sudo apt-get install openjdk-8-jdk
+
 #songrec
 sudo apt-add-repository ppa:marin-m/songrec -y -u
 sudo apt-get update
