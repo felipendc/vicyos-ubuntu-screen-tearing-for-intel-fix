@@ -229,8 +229,13 @@ alias remove='sudo apt remove'
 alias unlock='sudo rm /var/lib/dpkg/lock-frontend && sudo rm /var/lib/dpkg/lock'
 alias fix='sudo dpkg --configure -a'
 
+
 export PATH="$PATH:/home/vicyos/flutter/bin"
+export PATH="$PATH:/home/vicyos/node-v16.5.0-linux-x64/bin"
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+
+# tqdm script
+export PATH="$PATH:/home/vicyos/.local/bin"
 
 
 
