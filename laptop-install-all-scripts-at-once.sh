@@ -17,6 +17,8 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt install flatpak -y
 
+
+flatpak install flathub com.obsproject.Studio
 #sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
 sudo flatpak install -y FLATPAK/net.codeindustry.MasterPDFEditor.flatpakref
 #sudo flatpak install -y FLATPAK/org.clementine_player.Clementine.flatpakref
