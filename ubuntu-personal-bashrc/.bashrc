@@ -221,8 +221,9 @@ alias desligar-o-computador="shutdown now"
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias revo='sudo apt autoremove'
 alias update='sudo apt-get update && sudo apt-get upgrade'
-alias revo='sudo apt autoremove'
+alias upgrade='sudo apt-get update && sudo apt-get dist-upgrade'
 alias reboot='sudo systemctl reboot -i'
+
 
 alias install='sudo apt install'
 alias remove='sudo apt remove'
