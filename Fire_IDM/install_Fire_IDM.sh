@@ -32,7 +32,7 @@ cd temp_files
 
 # Creating the FireDM deskto file and appending its specs
 cat >> firedm.desktop <<EOF
-[Desktop Entry]
+echo "[Desktop Entry]"
 Type=Application
 Version=1.0
 Name=FireDM
@@ -42,6 +42,7 @@ Exec=firedm
 Icon=firedm
 Terminal=false
 Categories=Utility;AudioVideo;Network;
+Keywords=Internet;download
 EOF
 
 
