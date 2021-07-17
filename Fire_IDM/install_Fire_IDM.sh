@@ -1,4 +1,7 @@
 #!/bin/bash 
+# Github source code link:
+# https://github.com/firedm/FireDM
+
 
 # Manually installing FireDM with pip
 
@@ -65,3 +68,6 @@ cd ../
 if [ -d "temp_files" ]; then 
     rm -R temp_files
 fi
+
+# TO WRAP IT UP, YOU WILL NEED TO REBOOT THE COMPUTER, SO THAT, 
+# THE ICON WILL SHOW UP ON THE APLICATIONS MENU.
