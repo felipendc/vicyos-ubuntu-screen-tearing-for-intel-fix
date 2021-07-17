@@ -85,12 +85,17 @@ sudo apt install hardinfo -y
 #sudo apt install gufw -y
 
 
-        
 # Install any pkgs dependencies
 sudo apt install -f
 
 # Auto remove unnecessary packages:
-#sudo apt autoremove
+sudo apt autoremove
+
+
+# Install Fire_IDM (Internet Download Manager)
+cd Fire_IDM
+./install_Fire_IDM.sh
+cd ../
 
 # Install Firewall and allow Samba: 
 #sudo ufw enable

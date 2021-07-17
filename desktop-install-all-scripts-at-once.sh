@@ -97,7 +97,12 @@ sudo apt install gufw -y
 sudo apt install -f
 
 # Auto remove unnecessary packages:
-#sudo apt autoremove
+sudo apt autoremove
+
+# Install Fire_IDM (Internet Download Manager)
+cd Fire_IDM
+./install_Fire_IDM.sh
+cd ../
 
 # Install Firewall and allow Samba: 
 sudo ufw enable
@@ -105,7 +110,6 @@ sudo ufw allow Samba
 
 # Vicyos Personal snaps:
 sudo snap install odio
-
 
 # Initiate git-lfs for larger packages:
 # git lfs install
