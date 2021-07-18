@@ -239,7 +239,6 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 export PATH="$PATH:/home/vicyos/Android/Sdk/platform-tools"
 export PATH="$PATH:/home/vicyos/Android/Sdk/emulator"
 
-
 # tqdm script
 export PATH="$PATH:/home/vicyos/.local/bin"
 
