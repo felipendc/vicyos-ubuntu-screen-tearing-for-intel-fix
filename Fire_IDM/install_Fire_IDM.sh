@@ -2,6 +2,7 @@
 # Github source code link:
 # https://github.com/firedm/FireDM
 
+# This script has been adapted to suit my needs (Vicyos / Felipe Ndc)
 
 # Manually installing FireDM with pip
 

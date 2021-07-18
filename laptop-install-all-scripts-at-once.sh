@@ -50,8 +50,8 @@ sudo apt-add-repository ppa:marin-m/songrec -y -u
 sudo apt-get update
 sudo apt install songrec -y
 
-sudo apt install adb -y
-sudo apt install fastboot -y
+#sudo apt install adb -y
+#sudo apt install fastboot -y
 sudo apt install rclone -y
 sudo apt install unrar -y
 #sudo apt install git-lfs -y

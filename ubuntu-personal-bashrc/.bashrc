@@ -229,11 +229,16 @@ alias install='sudo apt install'
 alias remove='sudo apt remove'
 alias unlock='sudo rm /var/lib/dpkg/lock-frontend && sudo rm /var/lib/dpkg/lock'
 alias fix='sudo dpkg --configure -a'
+alias refresh='source ~/.bashrc'
 
-
+export ANDROID_AVD_HOME="$PATH:/home/vicyos/.android/avd" 
+export ANDROID_SDK_ROOT="$PATH:/home/vicyos/Android/Sdk" 
 export PATH="$PATH:/home/vicyos/flutter/bin"
 export PATH="$PATH:/home/vicyos/node-v16.5.0-linux-x64/bin"
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+export PATH="$PATH:/home/vicyos/Android/Sdk/platform-tools"
+export PATH="$PATH:/home/vicyos/Android/Sdk/emulator"
+
 
 # tqdm script
 export PATH="$PATH:/home/vicyos/.local/bin"
@@ -246,6 +251,7 @@ export PATH="$PATH:/home/vicyos/.local/bin"
 #export CCACHE_DIR="${HOME}/.ccache"
 #export CCACHE_EXEC="$(which ccache)"
 #ccache -M 150G
+
 
 
 
