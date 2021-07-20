@@ -167,3 +167,4 @@ sudo apt upgrade -y
 sudo apt install -f
 sudo apt autoremove
 
+gedit How_to_setup_rclone.txt
