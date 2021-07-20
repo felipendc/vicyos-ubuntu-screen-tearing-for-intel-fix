@@ -50,6 +50,9 @@ sudo apt-add-repository ppa:marin-m/songrec -y -u
 sudo apt-get update
 sudo apt install songrec -y
 
+# pavucontrol = Set the pointer to base in output audio (to remove the audio recording noise)
+sudo apt install pavucontrol -y
+
 #sudo apt install adb -y
 #sudo apt install fastboot -y
 sudo apt install rclone -y
@@ -95,6 +98,11 @@ sudo apt autoremove
 # Install Fire_IDM (Internet Download Manager)
 cd Fire_IDM
 ./install_Fire_IDM.sh
+cd ../
+
+# OBS-STUDIO CONFIG FILES
+cd config_files
+cp -r * ~/.config
 cd ../
 
 # Install Firewall and allow Samba: 
