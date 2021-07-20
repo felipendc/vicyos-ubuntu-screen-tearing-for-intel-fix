@@ -17,6 +17,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt install flatpak -y
 
+sudo apt install software-properties-common
 
 flatpak install flathub com.obsproject.Studio
 sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
