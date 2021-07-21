@@ -19,29 +19,26 @@ sudo apt install flatpak -y
 
 sudo apt install software-properties-common
 
-flatpak install flathub com.obsproject.Studio
-sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
-sudo flatpak install -y FLATPAK/net.codeindustry.MasterPDFEditor.flatpakref
-#sudo flatpak install -y FLATPAK/org.clementine_player.Clementine.flatpakref
-sudo flatpak install -y FLATPAK/org.gimp.GIMP.flatpakref
-sudo flatpak install -y FLATPAK/org.kde.kdenlive.flatpakref
-sudo flatpak install -y FLATPAK/org.kde.krita.flatpakref
-sudo flatpak install -y FLATPAK/org.qbittorrent.qBittorrent.flatpakref
-sudo flatpak install -y FLATPAK/org.telegram.desktop.flatpakref
-sudo flatpak install -y FLATPAK/org.videolan.VLC.flatpakref
-sudo flatpak install -y FLATPAK/fr.handbrake.ghb.flatpakref
-#sudo flatpak install -y FLATPAK/org.filezillaproject.Filezilla.flatpakref
-sudo flatpak install -y FLATPAK/org.inkscape.Inkscape.flatpakref
-#sudo flatpak install -y FLATPAK/com.visualstudio.code.flatpakref
-#sudo flatpak install -y FLATPAK/com.gitlab.bitseater.meteo.flatpakref
-#sudo flatpak install -y FLATPAK/org.onlyoffice.desktopeditors.flatpakref
-#sudo flatpak install -y FLATPAK/com.hamrick.VueScan.flatpakref
+flatpak install flathub -y com.obsproject.Studio
+flatpak install flathub -y com.discordapp.Discord
+flatpak install flathub -y net.codeindustry.MasterPDFEditor
+flatpak install flathub -y org.gimp.GIMP
+flatpak install flathub -y org.kde.kdenlive
+flatpak install flathub -y org.kde.krita
+flatpak install flathub -y org.qbittorrent.qBittorrent
+flatpak install flathub -y org.telegram.desktop
+flatpak install flathub -y org.videolan.VLC
+flatpak install flathub -y fr.handbrake.ghb
+flatpak install flathub -y org.filezillaproject.Filezilla
+flatpak install flathub -y org.inkscape.Inkscape
+flatpak install flathub -y com.visualstudio.code
+flatpak install flathub -y com.gitlab.bitseater.meteo
+flatpak install flathub -y org.onlyoffice.desktopeditors
+flatpak install flathub -y com.hamrick.VueScan
+
 
 ###############
-
-
 # Vicyos  Personal packages:
-
 
 # JAVA 8 JDK 
 sudo apt-get install openjdk-8-jdk
