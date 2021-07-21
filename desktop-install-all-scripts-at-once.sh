@@ -111,7 +111,7 @@ sudo ufw enable
 sudo ufw allow Samba
 
 # Vicyos Personal snaps:
-sudo snap install odio
+#sudo snap install odio
 
 # Initiate git-lfs for larger packages:
 # git lfs install
@@ -134,7 +134,7 @@ cd nitroshare && sudo apt install ./nitroshare_0.3.3-1.1_amd64.deb -y --allow-do
 cd ubuntu-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 
 # Install 4kvideodownloader:
-cd random && sudo apt install ./4kvideodownloader*.deb -y --allow-downgrades && cd ../
+#cd random && sudo apt install ./4kvideodownloader*.deb -y --allow-downgrades && cd ../
 
 # Install Google-Chrome Browser:
 cd random && sudo apt install ./google-chrome-stable_current_amd64.deb -y --allow-downgrades && cd ../
@@ -143,13 +143,13 @@ cd random && sudo apt install ./google-chrome-stable_current_amd64.deb -y --allo
 cd random && sudo apt install ./code*.deb -y --allow-downgrades && cd ../
 
 # Install Photoscape with wine:
-wine random/photoscape*.exe 
+#wine random/photoscape*.exe 
 
 # Install XDownloader Manager: 
-cd random && tar -xf xdm*.tar.xz && sudo ./install.sh && rm -r install.sh readme.txt && cd ../
+#cd random && tar -xf xdm*.tar.xz && sudo ./install.sh && rm -r install.sh readme.txt && cd ../
 
 # Install SoundCloud Downloader:
-cd scdl && sudo pip3 install scdl && cd ../
+#cd scdl && sudo pip3 install scdl && cd ../
 
 # Set Github email and nickname:
 sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
