@@ -96,9 +96,9 @@ sudo apt install -f
 sudo apt autoremove
 
 
-# Install Fire_IDM (Internet Download Manager)
-cd Fire_IDM
-./install_Fire_IDM.sh
+# Install Fire_DM (Internet Download Manager)
+cd Fire_DM
+./install_Fire_DM.sh
 cd ../
 
 # OBS-STUDIO CONFIG FILES

@@ -101,9 +101,9 @@ sudo apt install -f
 # Auto remove unnecessary packages:
 sudo apt autoremove
 
-# Install Fire_IDM (Internet Download Manager)
-cd Fire_IDM
-./install_Fire_IDM.sh
+# Install Fire_DM (Internet Download Manager)
+cd Fire_DM
+./install_Fire_DM.sh
 cd ../
 
 # Install Firewall and allow Samba: 

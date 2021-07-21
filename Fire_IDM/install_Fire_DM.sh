@@ -24,6 +24,9 @@ sudo apt install -y \
     fonts-emojione
 
 
+# Installing FireDM
+python3 -m pip install firedm --user --upgrade --no-cache
+
 
 # Removing the temp folder if it exist
 if [ -d "temp_files" ]; then 
