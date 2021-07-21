@@ -32,7 +32,7 @@ sudo flatpak install -y FLATPAK/org.videolan.VLC.flatpakref
 sudo flatpak install -y FLATPAK/fr.handbrake.ghb.flatpakref
 #sudo flatpak install -y FLATPAK/org.filezillaproject.Filezilla.flatpakref
 sudo flatpak install -y FLATPAK/org.inkscape.Inkscape.flatpakref
-sudo flatpak install -y FLATPAK/com.visualstudio.code.flatpakref
+#sudo flatpak install -y FLATPAK/com.visualstudio.code.flatpakref
 #sudo flatpak install -y FLATPAK/com.gitlab.bitseater.meteo.flatpakref
 #sudo flatpak install -y FLATPAK/org.onlyoffice.desktopeditors.flatpakref
 #sudo flatpak install -y FLATPAK/com.hamrick.VueScan.flatpakref
@@ -141,7 +141,7 @@ cd ubuntu-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 #cd random && sudo apt install ./google-chrome-stable_current_amd64.deb -y --allow-downgrades && cd ../
 
 # Install Visual Studio Code:
-#cd random && sudo apt install ./code*.deb -y --allow-downgrades && cd ../
+cd random && sudo apt install ./code*.deb -y --allow-downgrades && cd ../
 
 # Install Photoscape with wine:
 #wine random/photoscape*.exe 
