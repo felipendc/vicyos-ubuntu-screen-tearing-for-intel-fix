@@ -4,7 +4,7 @@
 ######### Set my favorite picture as background wallpaper:
 cd vicyos-background-wallpaper
 sudo cp -r *.jpg /usr/share/backgrounds
-gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/593985.jpg"
+gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/zac-ong-_q4-ykeXOPE-unsplash.jpg"
 cd ../
 
 # Update the kernel. 
