@@ -20,7 +20,7 @@ rclone --vfs-cache-mode writes mount onedrive: ~/onedrive
 # Startup application form:
 
 Name: ONEDRIVE
-Command: rclone --vfs-cache-mode writes mount onedrive: ~/onedrive
+Command: sh -c "rclone --vfs-cache-mode writes mount onedrive: ~/onedrive"
 Comment: This will mount the OneDrive Folder when I boot up the system.
 
 
@@ -47,7 +47,7 @@ rclone --vfs-cache-mode writes mount gdrive: ~/gdrive
 # Startup application form:
 
 Name: GDRIVE
-Command: rclone --vfs-cache-mode writes mount gdrive: ~/gdrive
+Command: sh -c "rclone --vfs-cache-mode writes mount gdrive: ~/gdrive"
 Comment: This will mount the Google Drive Folder when I boot up the system.
 
 
