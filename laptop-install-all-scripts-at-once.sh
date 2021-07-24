@@ -31,7 +31,6 @@ flatpak install flathub -y org.videolan.VLC
 flatpak install flathub -y fr.handbrake.ghb
 flatpak install flathub -y org.filezillaproject.Filezilla
 flatpak install flathub -y org.inkscape.Inkscape
-flatpak install flathub -y com.visualstudio.code
 flatpak install flathub -y com.gitlab.bitseater.meteo
 flatpak install flathub -y org.onlyoffice.desktopeditors
 flatpak install flathub -y com.hamrick.VueScan
