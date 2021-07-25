@@ -1,24 +1,51 @@
 #!/bin/bash
 # github.com/felipendc
 
-######### Set my favorite picture as background wallpaper:
+#### Set my favorite picture as background wallpaper: ####
+
 #cd vicyos-background-wallpaper
 #sudo cp -r *.jpg /usr/share/backgrounds
-#gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/593985.jpg"
+#gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/andre-benz-unsplash.jpg"
 #cd ../
 
-#cd ubuntu-kernel-update
-#sudo dpkg -i *.deb
-#cd ../
 
-###############
-
+# Refreshing the repo and upgrading the system.
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt install flatpak -y
+
+
+#### Vicyos Personal packages: ####
+
+#songrec
+sudo apt-add-repository ppa:marin-m/songrec -y -u
+sudo apt-get update
+sudo apt install songrec -y
 
 sudo apt install software-properties-common
+sudo apt install flatpak -y
+sudo apt-get install openjdk-8-jdk
+sudo apt install pavucontrol -y
+sudo apt install rclone -y
+sudo apt install unrar -y
+sudo apt install brasero -y
+sudo apt install gnome-tweaks -y
+sudo apt install simplescreenrecorder -y
+sudo apt install xsensors -y
+sudo apt install gnome-disk-utility -y
+sudo apt install gparted -y
+sudo apt install hardinfo -y
+sudo apt install gufw -y
 
+# sudo apt install pyhton3 -y
+# sudo apt install python3-pip -y
+#sudo apt install adb -y
+#sudo apt install fastboot -y
+#sudo apt install git-lfs -y
+#sudo apt install winff -y
+#sudo apt install python-pip -y
+
+
+############# FLATHUB PACKAGES ################
 flatpak install flathub -y com.obsproject.Studio
 flatpak install flathub -y com.discordapp.Discord
 flatpak install flathub -y net.codeindustry.MasterPDFEditor
@@ -36,57 +63,9 @@ flatpak install flathub -y org.onlyoffice.desktopeditors
 flatpak install flathub -y com.hamrick.VueScan
 
 
-###############
-# Vicyos  Personal packages:
-
-# JAVA 8 JDK 
-sudo apt-get install openjdk-8-jdk
-
-#songrec
-sudo apt-add-repository ppa:marin-m/songrec -y -u
-sudo apt-get update
-sudo apt install songrec -y
-
-# pavucontrol = Set the pointer to base in output audio (to remove the audio recording noise)
-sudo apt install pavucontrol -y
-
-#sudo apt install adb -y
-#sudo apt install fastboot -y
-sudo apt install rclone -y
-sudo apt install unrar -y
-#sudo apt install git-lfs -y
-#sudo apt install synaptic -y
-#sudo apt install samba -y
-#sudo apt install smbclient -y
-#sudo apt install samba-common-bin -y
-#sudo apt install smbclient -y
-#sudo apt install libsmbclient -y
-#sudo apt install winff -y
-sudo apt install brasero -y
-sudo apt install gnome-tweaks -y
-sudo apt install simplescreenrecorder -y
-sudo apt install pyhton3 -y
-sudo apt install python3-pip -y
-#sudo apt install python-pip -y
-#sudo apt install youtube-dl -y
-#sudo apt install dconf-editor -y
-#sudo apt install thunar -y
-#sudo apt install com.github.stsdc.monitor -y
-#sudo apt install gnome-system-monitor -y
-#sudo apt install ocl-icd-opencl-dev -y
-#sudo apt install com.github.donadigo.eddy -y
-sudo apt install xsensors -y
-sudo apt install gnome-disk-utility -y
-#sudo apt install gparted -y
-sudo apt install hardinfo -y
-#sudo apt install wireless-tools -y
-#sudo apt install net-tools -y
-#sudo apt install wine-stable -y
-#sudo apt install gufw -y
-
-
 # Install any pkgs dependencies
 sudo apt install -f
+
 
 # Auto remove unnecessary packages:
 sudo apt autoremove
@@ -97,24 +76,20 @@ cd Fire_DM
 ./install_Fire_DM.sh
 cd ../
 
+
 # OBS-STUDIO CONFIG FILES
 cd config_files
 cp -r * ~/.config
 cd ../
 
+
 # Install Firewall and allow Samba: 
 #sudo ufw enable
 #sudo ufw allow Samba
 
-# Vicyos Personal snaps:
-#sudo snap install odio
-
 
 # Initiate git-lfs for larger packages:
 # git lfs install
-
-
-
 
 
 #########################################
@@ -154,8 +129,6 @@ sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
 
 # Install Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
 #cd vicyos-ubuntu-screen-tearing-for-intel-fix && sudo chmod +x *.sh && sudo sh ./vicyos-install-linux-screen-tearing-fix.sh && cd ../
-
-
 
 
 # LOOK FOR UPDATE FOR ALL THE PACKAGES:
