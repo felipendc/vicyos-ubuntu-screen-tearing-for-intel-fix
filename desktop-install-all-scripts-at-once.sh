@@ -118,6 +118,34 @@ sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
 # Install Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
 #cd vicyos-ubuntu-screen-tearing-for-intel-fix && sudo sh ./vicyos-install-linux-screen-tearing-#fix.sh && cd ../
 
+# INSTALL CODE EXTENTIONS:
+code --install-extension nico-castell.linux-desktop-file
+code --install-extension erikphansen.vscode-toggle-column-selection
+code --install-extension ritwickdey.LiveServer
+code --install-extension DigitalBrainstem.javascript-ejs-support
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension hex-ci.stylelint-plus
+code --install-extension formulahendry.auto-close-tag
+code --install-extension esbenp.prettier-vscode
+code --install-extension ms-python.vscode-pylance
+code --install-extension donjayamanne.python-extension-pack
+code --install-extension almenon.arepl
+code --install-extension PKief.material-icon-theme
+code --install-extension Dart-Code.dart-code
+code --install-extension naumovs.color-highlight
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension Dart-Code.flutter
+code --install-extension alexisvt.flutter-snippets
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension will-stone.plastic
+# code --install-extension Nash.awesome-flutter-snippets
+# code --install-extension TabNine.tabnine-vscode
+# code --install-extension file-icons.file-icons
+
+# UNINSTALL CODE EXTENSIONS COMMAND:
+# code --uninstall-extension 
+
 # LOOK FOR UPDATE FOR ALL THE PACKAGES:
 sudo apt update
 sudo apt upgrade -y
