@@ -43,6 +43,7 @@ sudo apt install gnome-disk-utility -y
 sudo apt install gparted -y
 sudo apt install hardinfo -y
 sudo apt install gufw -y
+sudo apt install repo -y
 
 # sudo apt install pyhton3 -y
 # sudo apt install python3-pip -y
