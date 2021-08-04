@@ -9,7 +9,7 @@ gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/a
 cd ../
 
 
-# Installinging Nvidia-Drivers:
+# Installing Nvidia-Drivers:
 # sudo add-apt-repository ppa:graphics-drivers/ppa
 # sudo apt-get update
 # sudo apt install -y nvidia-driver-450 nvidia-settings
