@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sound-output-device-chooser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sound-output-device-chooser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-12 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:191
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:257
+msgid "(Select / deselect the required device in the Gnome Sound Settings)"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:448
+msgid "Activated Device: "
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:447
+msgid "Activated device is hidden in Port Settings."
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:18
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:19
+msgid "Colored"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/prefs.js:138
+msgid "Could not load the preferences UI file"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:448
+msgid "Deactivated Device: "
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:565
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:820
+msgid "Default"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:522
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:777
+msgid "Device Type"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:449
+msgid "Disable in extension preferences to avoid this behaviour."
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:115
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:139
+msgid "Display audio profiles for selection"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:378
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:553
+msgid "Display icons only in selection list"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:166
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:218
+msgid "Don't allow device hidden in Port Settings to be activated"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:422
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:625
+msgid "Enable Log messages"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:444
+msgid "Enable new profile identification"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:664
+msgid "Enable new profile identification "
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:141
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:179
+msgid "Extend Volume Menu to fit device names"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:446
+msgid "Extension changed active sound device."
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:211
+msgid "Extension initialising..."
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:202
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:275
+msgid "General Settings"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:551
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:806
+msgid "Hide"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:90
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:99
+msgid "Hide selector if there's only one device"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:345
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:505
+msgid "Icon Theme"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:395
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:582
+msgid "Icons"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:318
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:462
+msgid "Input Devices"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:461
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:694
+msgid "Miscellaneous"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:14
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:15
+msgid "Monochrome"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:507
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:763
+msgid "Name"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:22
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:23
+msgid "None"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:246
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:347
+msgid "Output Devices"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:584
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:846
+msgid "Port Settings"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/base.js:108
+msgid "Profile: "
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:537
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:792
+msgid "Show"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:274
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:391
+msgid "Show input devices"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:228
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:317
+msgid "Show output devices"
+msgstr ""
+
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog40.glade:300
+#: sound-output-device-chooser@kgshank.net/ui/prefs-dialog.glade:432
+msgid "Show volume control for default device"
+msgstr ""
