@@ -9,14 +9,14 @@ gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/a
 cd ../
 
 
-# Install Nvidia-Drivers
+# Installinging Nvidia-Drivers:
 # sudo add-apt-repository ppa:graphics-drivers/ppa
 # sudo apt-get update
 # sudo apt install -y nvidia-driver-450 nvidia-settings
 # sudo apt install -y nvidia-driver-390 nvidia-settings
 
 
-# Refreshing the repo and upgrading the system.
+# Refreshing the repo and upgrading the system:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt install flatpak -y
@@ -72,36 +72,42 @@ flatpak install flathub -y org.onlyoffice.desktopeditors
 flatpak install flathub -y com.hamrick.VueScan
 
         
-# Install any pkgs dependencies
+# Installinging any pkgs dependencies:
 sudo apt install -f
 
 # Auto remove unnecessary packages:
 sudo apt autoremove
 
 
-# gse-sound-output-device-chooser
-cd gse-sound-output-device-chooser
+# GNOME EXTENSIONS
+
+# removing older Gnome extension versions:
 rm -rf ~/.local/share/gnome-shell/extensions/*sound-output-device-chooser*
-cp -r sound-output-device-chooser@kgshank.net ~/.local/share/gnome-shell/extensions/
+rm -rf ~/.local/share/gnome-shell/extensions/*simplenetspeed*
+
+# Installing the extensions:
+cd personal-gnome-extensions/
+cp -r * ~/.local/share/gnome-shell/extensions/
 
 # Enabling the extension with "gnome-extensions COMMAND [ARGS…]":
 gnome-extensions enable sound-output-device-chooser@kgshank.net
+gnome-extensions enable simplenetspeed@biji.extension
 cd ../
 
 
-# Install Fire_DM (Internet Download Manager)
+# Installing Fire_DM (Internet Download Manager):
 cd Fire_DM
 ./install_Fire_DM.sh
 cd ../
 
 
-# OBS-STUDIO CONFIG FILES
+# OBS-STUDIO CONFIG FILES:
 cd config_files
 cp -r * ~/.config
 cd ../
 
 
-# Install Firewall and allow Samba: 
+# Installing Firewall and allow Samba: 
 #sudo ufw enable
 #sudo ufw allow Samba
 
@@ -113,31 +119,31 @@ cd ../
 ### Run scripts and install packages ####
 #########################################
 
-# Setup Android Build Environment:
+# Setting up Android Build Environment:
 #cd android-build-environment-setup && sudo chmod +x *.sh && ./android_build_env.sh && cd ../
 
-# Move my personal .bashrc file to my HOME folder:
+# Moving my personal .bashrc file to my HOME folder:
 cd ubuntu-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 
-# Install Google-Chrome Browser:
+# Installing Google-Chrome Browser:
 cd random && sudo apt install ./google-chrome-stable_current_amd64.deb -y --allow-downgrades && cd ../
 
-# Install Visual Studio Code:
+# Installing Visual Studio Code:
 cd random && sudo apt install ./code*.deb -y --allow-downgrades && cd ../
 
-# Install Photoscape with wine:
+# Installing Photoscape with wine:
 #wine random/photoscape*.exe 
 
-# Install XDownloader Manager: 
+# Installing XDownloader Manager: 
 #cd random && tar -xf xdm*.tar.xz && sudo ./install.sh && rm -r install.sh readme.txt && cd ../
 
-# Set Github email and nickname:
+# Setting Github email and nickname:
 sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
 
-# Install Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
+# Installing Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
 #cd vicyos-ubuntu-screen-tearing-for-intel-fix && sudo sh ./vicyos-install-linux-screen-tearing-#fix.sh && cd ../
 
-# INSTALL CODE EXTENTIONS:
+# INSTALLING CODE EXTENTIONS:
 code --install-extension nico-castell.linux-desktop-file
 code --install-extension erikphansen.vscode-toggle-column-selection
 code --install-extension ritwickdey.LiveServer
@@ -162,13 +168,14 @@ code --install-extension will-stone.plastic
 # code --install-extension TabNine.tabnine-vscode
 # code --install-extension file-icons.file-icons
 
-# UNINSTALL CODE EXTENSIONS COMMAND:
+# UNINSTALLING CODE EXTENSIONS COMMAND:
 # code --uninstall-extension 
 
-# LOOK FOR UPDATE FOR ALL THE PACKAGES:
+# LOOKING FOR UPDATE FOR ALL THE PACKAGES:
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -f
 sudo apt autoremove
 
+# Reminder:
 gedit How_to_setup_rclone.txt

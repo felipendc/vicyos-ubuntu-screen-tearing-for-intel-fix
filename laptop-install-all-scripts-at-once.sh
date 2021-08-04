@@ -1,7 +1,7 @@
 #!/bin/bash
 # github.com/felipendc
 
-#### Set my favorite picture as background wallpaper: ####
+#### Setting up my favorite picture as background wallpaper: ####
 
 #cd vicyos-background-wallpaper
 #sudo cp -r *.jpg /usr/share/backgrounds
@@ -9,7 +9,7 @@
 #cd ../
 
 
-# Refreshing the repo and upgrading the system.
+# Refreshing the repo and upgrading the system:
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -64,42 +64,48 @@ flatpak install flathub -y org.onlyoffice.desktopeditors
 flatpak install flathub -y com.hamrick.VueScan
 
 
-# Install any pkgs dependencies
+# Installing any pkgs dependencies:
 sudo apt install -f
 
 
-# Auto remove unnecessary packages:
+# Auto removing unnecessary packages:
 sudo apt autoremove
 
 
-# gse-sound-output-device-chooser
-cd gse-sound-output-device-chooser
+# GNOME EXTENSIONS
+
+# removing older Gnome extension versions:
 rm -rf ~/.local/share/gnome-shell/extensions/*sound-output-device-chooser*
-cp -r sound-output-device-chooser@kgshank.net ~/.local/share/gnome-shell/extensions/
+rm -rf ~/.local/share/gnome-shell/extensions/*simplenetspeed*
+
+# Installing the extensions:
+cd personal-gnome-extensions/
+cp -r * ~/.local/share/gnome-shell/extensions/
 
 # Enabling the extension with "gnome-extensions COMMAND [ARGS…]":
 gnome-extensions enable sound-output-device-chooser@kgshank.net
+gnome-extensions enable simplenetspeed@biji.extension
 cd ../
 
 
-# Install Fire_DM (Internet Download Manager)
+# Installing Fire_DM (Internet Download Manager):
 cd Fire_DM
 ./install_Fire_DM.sh
 cd ../
 
 
-# OBS-STUDIO CONFIG FILES
+# OBS-STUDIO CONFIG FILES:
 cd config_files
 cp -r * ~/.config
 cd ../
 
 
-# Install Firewall and allow Samba: 
+# Installing Firewall and allow Samba: 
 #sudo ufw enable
 #sudo ufw allow Samba
 
 
-# Initiate git-lfs for larger packages:
+# Initiating git-lfs for larger packages:
 # git lfs install
 
 
@@ -107,41 +113,41 @@ cd ../
 ### Run scripts and install packages ####
 #########################################
 
-# Setup Android Build Environment:
+# Setting up Android Build Environment:
 #cd android-build-environment-setup && sudo chmod +x *.sh && ./android_build_env.sh && cd ../
 
-# Install nitroshare in case samba isn't working:
+# Installing nitroshare in case samba isn't working:
 #cd nitroshare && sudo apt install ./nitroshare_0.3.3-1.1_amd64.deb -y --allow-downgrades && cd ../
 
 # Move my personal .bashrc file to my HOME folder:
 cd ubuntu-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 
-# Install 4kvideodownloader:
+# Installing 4kvideodownloader:
 #cd random && sudo apt install ./4kvideodownloader*.deb -y --allow-downgrades && cd ../
 
-# Install Google-Chrome Browser:
+# Installing Google-Chrome Browser:
 #cd random && sudo apt install ./google-chrome-stable_current_amd64.deb -y --allow-downgrades && cd ../
 
-# Install Visual Studio Code:
+# Installing Visual Studio Code:
 cd random && sudo apt install ./code*.deb -y --allow-downgrades && cd ../
 
-# Install Photoscape with wine:
+# Installing Photoscape with wine:
 #wine random/photoscape*.exe 
 
-# Install XDownloader Manager: 
+# Installing XDownloader Manager: 
 cd random && tar -xf xdm*.tar.xz && sudo ./install.sh && rm -r install.sh readme.txt && cd ../
 
-# Install SoundCloud Downloader:
+# Installing SoundCloud Downloader:
 #cd scdl && sudo pip3 install scdl && cd ../
 
-# Set Github email and nickname:
+# Setting Github email and nickname:
 sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
 
 
-# Install Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
+# Installing Intel Screen Tearing fix, just in case you are using: Intel® HD Graphics
 #cd vicyos-ubuntu-screen-tearing-for-intel-fix && sudo chmod +x *.sh && sudo sh ./vicyos-install-linux-screen-tearing-fix.sh && cd ../
 
-# INSTALL CODE EXTENTIONS:
+# INSTALLING CODE EXTENTIONS:
 code --install-extension nico-castell.linux-desktop-file
 code --install-extension erikphansen.vscode-toggle-column-selection
 code --install-extension ritwickdey.LiveServer
@@ -166,13 +172,14 @@ code --install-extension will-stone.plastic
 # code --install-extension TabNine.tabnine-vscode
 # code --install-extension file-icons.file-icons
 
-# UNINSTALL CODE EXTENSIONS COMMAND:
+# UNINSTALLING CODE EXTENSIONS COMMAND:
 # code --uninstall-extension 
 
-# LOOK FOR UPDATE FOR ALL THE PACKAGES:
+# LOOKING FOR UPDATE FOR ALL THE PACKAGES:
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -f
 sudo apt autoremove
 
+# Reminder:
 gedit How_to_setup_rclone.txt
