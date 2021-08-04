@@ -78,10 +78,28 @@ sudo apt install -f
 # Auto remove unnecessary packages:
 sudo apt autoremove
 
+
+# gse-sound-output-device-chooser
+cd gse-sound-output-device-chooser
+rm -rf ~/.local/share/gnome-shell/extensions/*sound-output-device-chooser*
+cp -r sound-output-device-chooser@kgshank.net ~/.local/share/gnome-shell/extensions/
+
+# Enabling the extension with "gnome-extensions COMMAND [ARGS…]":
+gnome-extensions enable sound-output-device-chooser@kgshank.net
+cd ../
+
+
 # Install Fire_DM (Internet Download Manager)
 cd Fire_DM
 ./install_Fire_DM.sh
 cd ../
+
+
+# OBS-STUDIO CONFIG FILES
+cd config_files
+cp -r * ~/.config
+cd ../
+
 
 # Install Firewall and allow Samba: 
 #sudo ufw enable
