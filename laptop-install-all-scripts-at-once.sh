@@ -36,32 +36,31 @@ sudo apt install gparted -y
 sudo apt install hardinfo -y
 sudo apt install gufw -y
 sudo apt install repo -y
-
-# sudo apt install pyhton3 -y
-# sudo apt install python3-pip -y
+sudo apt install pyhton3 -y
+sudo apt install python3-pip -y
+sudo apt install python-pip -y
+sudo apt install winff -y
 #sudo apt install adb -y
 #sudo apt install fastboot -y
 #sudo apt install git-lfs -y
-#sudo apt install winff -y
-#sudo apt install python-pip -y
 
 
 ############# FLATHUB PACKAGES ################
-#flatpak install flathub -y com.obsproject.Studio
-flatpak install flathub -y com.discordapp.Discord
-flatpak install flathub -y net.codeindustry.MasterPDFEditor
-flatpak install flathub -y org.gimp.GIMP
-flatpak install flathub -y org.kde.kdenlive
-flatpak install flathub -y org.kde.krita
-flatpak install flathub -y org.qbittorrent.qBittorrent
-flatpak install flathub -y org.telegram.desktop
-flatpak install flathub -y org.videolan.VLC
-flatpak install flathub -y fr.handbrake.ghb
-flatpak install flathub -y org.filezillaproject.Filezilla
-flatpak install flathub -y org.inkscape.Inkscape
-flatpak install flathub -y com.gitlab.bitseater.meteo
-flatpak install flathub -y org.onlyoffice.desktopeditors
-flatpak install flathub -y com.hamrick.VueScan
+# sudo flatpak install -y flatpak/com.obsproject.Studio.flatpakref
+sudo flatpak install -y flatpak/com.discordapp.Discord.flatpakref
+sudo flatpak install -y flatpak/net.codeindustry.MasterPDFEditor.flatpakref
+sudo flatpak install -y flatpak/org.gimp.GIMP.flatpakref
+sudo flatpak install -y flatpak/org.kde.kdenlive.flatpakref
+sudo flatpak install -y flatpak/org.kde.krita.flatpakref
+sudo flatpak install -y flatpak/org.qbittorrent.qBittorrent.flatpakref
+sudo flatpak install -y flatpak/org.telegram.desktop.flatpakref
+sudo flatpak install -y flatpak/org.videolan.VLC.flatpakref
+sudo flatpak install -y flatpak/fr.handbrake.ghb.flatpakref
+sudo flatpak install -y flatpak/org.filezillaproject.Filezilla.flatpakref
+sudo flatpak install -y flatpak/org.inkscape.Inkscape.flatpakref
+sudo flatpak install -y flatpak/com.gitlab.bitseater.meteo.flatpakref
+sudo flatpak install -y flatpak/org.onlyoffice.desktopeditors.flatpakref
+sudo flatpak install -y flatpak/com.hamrick.VueScan.flatpakref
 
 
 # Installing any pkgs dependencies:
