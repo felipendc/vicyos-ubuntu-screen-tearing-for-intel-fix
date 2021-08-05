@@ -156,6 +156,7 @@ sudo chmod +x upall/*.sh && sudo sh ./upall/setup-git-v1.sh
 #cd vicyos-ubuntu-screen-tearing-for-intel-fix && sudo chmod +x *.sh && sudo sh ./vicyos-install-linux-screen-tearing-fix.sh && cd ../
 
 # INSTALLING CODE EXTENTIONS:
+code --install-extension ms-vscode.cpptools
 code --install-extension nico-castell.linux-desktop-file
 code --install-extension erikphansen.vscode-toggle-column-selection
 code --install-extension ritwickdey.LiveServer
