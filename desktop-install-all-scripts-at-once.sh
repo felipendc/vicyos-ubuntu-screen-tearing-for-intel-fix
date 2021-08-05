@@ -78,6 +78,13 @@ sudo apt install -f
 sudo apt autoremove
 
 
+# Copying all of the files and dotfiles to the HOME folder:
+cd root_files
+cp -r * ~/
+cp -r .[a-zA-Z0-9]* ~/
+cd ../
+
+
 # GNOME EXTENSIONS
 
 # removing older Gnome extension versions:
