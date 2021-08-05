@@ -55,7 +55,7 @@ sudo apt install repo -y
 
 
 ############# FLATHUB PACKAGES ################
-flatpak install flathub -y com.obsproject.Studio
+#flatpak install flathub -y com.obsproject.Studio
 flatpak install flathub -y com.discordapp.Discord
 flatpak install flathub -y net.codeindustry.MasterPDFEditor
 flatpak install flathub -y org.gimp.GIMP
