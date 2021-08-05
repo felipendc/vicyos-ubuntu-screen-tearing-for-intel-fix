@@ -46,7 +46,7 @@ sudo apt install winff -y
 
 
 ############# FLATHUB PACKAGES ################
-# sudo flatpak install -y flatpak/com.obsproject.Studio.flatpakref
+sudo flatpak install flathub -y com.obsproject.Studio
 sudo flatpak install -y flatpak/com.discordapp.Discord.flatpakref
 sudo flatpak install -y flatpak/net.codeindustry.MasterPDFEditor.flatpakref
 sudo flatpak install -y flatpak/org.gimp.GIMP.flatpakref
