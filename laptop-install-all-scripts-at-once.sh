@@ -80,6 +80,8 @@ rm -rf ~/.local/share/gnome-shell/extensions/*simplenetspeed*
 
 # Installing the extensions:
 cd personal-gnome-extensions/
+
+mkdir ~/.local/share/gnome-shell/extensions/
 cp -r * ~/.local/share/gnome-shell/extensions/
 
 # Enabling the extension with "gnome-extensions COMMAND [ARGS…]":
