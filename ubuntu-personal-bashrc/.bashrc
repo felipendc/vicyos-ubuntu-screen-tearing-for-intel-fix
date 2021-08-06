@@ -221,7 +221,7 @@ alias desligar-o-computador="shutdown now"
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias revo='sudo apt autoremove'
 alias update='sudo apt-get update && sudo apt-get upgrade'
-#alias upgrade='sudo apt-get update && sudo apt-get dist-upgrade'
+alias upgrade='sudo apt-get update && sudo apt-get dist-upgrade'
 alias reboot='sudo systemctl reboot -i'
 
 
@@ -246,11 +246,14 @@ export PATH="$PATH:/home/vicyos/.local/bin"
 
 ############ CCACHE to compile android custom roms! ############
 
-#export USE_CCACHE=1
-#export CCACHE_DIR="${HOME}/.ccache"
-#export CCACHE_EXEC="$(which ccache)"
-#ccache -M 150G
+# export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
+# export USE_CCACHE=1
+# export CCACHE_DIR="${HOME}/.ccache"
+# export CCACHE_EXEC="$(which ccache)"
+# ccache -M 150G
 
-
+# Install git-lfs
+#git lfs install
+#repo forall -c git lfs pull
 
 
